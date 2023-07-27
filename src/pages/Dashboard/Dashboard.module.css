@@ -1,0 +1,56 @@
+.dashboard {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* centraliza na horizontal */
+    align-items: center;  /* centraliza na vertical */
+}
+
+.dashboard h2 {
+    font-size: 2.2em;
+    margin-bottom: 0.5em;
+}
+.dashboard p {
+    color: #aaa;
+    margin-bottom: 1em;
+}
+
+.nopost {
+    text-align: center;
+}
+
+.nopost p {
+    margin-bottom: 1.5em;
+}
+
+.nopost a {
+    padding: 10px 25px;
+}
+
+.postHeader, .postRow {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 10px;
+}
+
+.postHeader {
+    font-weight: bold;
+    border-bottom: 2px solid #ccc;
+}
+
+.postRow {  /* cada linha de nossa tabela */
+   border-bottom: 1px solid #eee;
+   align-items: center;
+}
+
+.postRow p {
+    color: #000;
+}
+
+.postRow a, .postRow button {
+    margin: 0 5px;
+    height: 30px;
+    width: 100px;
+    font-size: 0.7em;
+}
